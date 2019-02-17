@@ -1,11 +1,7 @@
 ##################################
 ##################################
 #### Group9
-#### Bruno Medeiros
-#### Di Guo
 #### Elizaveta Chaplygina
-#### Guilherme Reple
-#### Lohith Chittamuru
 #### Air France 01/27/2019 ######
 ####
 #### Submitted 02/04/2019 #######
@@ -368,13 +364,4 @@ word_cloud = wordcloud(air_df$Keyword,air_df$Clicks, scale= c(100,20),min.freq =
 wordcloud(words = air_df$Keyword, freq = air_df$Clicks, min.freq = 10,
           max.words=150, random.order=FALSE, rot.per=0.35, 
           colors=black.colors(12))
-
-
-
-
-
-
-
-
-
 
